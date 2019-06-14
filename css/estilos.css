@@ -1,0 +1,86 @@
+.fondo {
+	background-color: rgb(27, 34, 34);
+}
+.fondo1 {
+    background-image: url("../img/fondo1.jpg")
+}
+.jumbotron {
+    background-image: url("../img/fondo.jpg");
+}
+.fondo2 {
+    background-color: black;    
+}
+.fondo3 {
+    background-color: rgba(167, 170, 173, 0.35);
+}
+.logo {
+    height: 15%;
+    width: 15%;
+}
+.tipo {
+    color: white;
+    font-size: 20px;
+    font-style: oblique;
+}
+.tipo1 {
+    color: white;
+    font-style: oblique;
+}
+.toqueredes:hover {
+    background-color: grey;
+} 
+.alto {
+    
+    padding: 2px;
+}
+.alto1 {
+    padding: 5px;
+    text-align: center;
+}
+.touch:hover {
+    background-color:gray; 
+   
+}
+.selection {
+    text-align: center;
+    border: 1px solid black;
+}
+.bordecontenido {
+
+    height: auto;
+}
+.bordecomentario {
+
+    height: auto;  
+}
+.bordebusqueda{
+    
+    height: auto;
+}
+.bordetbusqueda{
+    
+    height: auto;
+}
+.tamanoimg {
+    max-width: 80%;
+    height: auto;
+}
+.icons {
+    width: 50px !important;
+    background-color: grey;
+    border-radius: 5px;
+}
+.vista {
+    width: 100%;
+}
+
+
+@media (max-width: 630px) {
+    .logo {
+      height: 30%;
+      width: 30%
+    }
+    .redes {
+        height: 50%;
+    }
+  }
